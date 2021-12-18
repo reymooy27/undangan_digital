@@ -1,5 +1,4 @@
 import React from 'react'
-import {motion} from 'framer-motion';
 
 export default function Side1() {
   return (
@@ -10,7 +9,7 @@ export default function Side1() {
         <span className="flex mx-10 justify-evenly text-white">17 <b>.</b> 7 <b>.</b> 2021</span>
       </div>
       <div>
-        <motion.h3 animate={{scale:[1,1.1,1.1,1,1]}} transition={{repeat: Infinity, duration: 1.5, ease: 'easeInOut'}} className="text-white">scroll kebawah</motion.h3>
+        <h3 className="text-white">scroll kebawah</h3>
       </div>
     </div>
   )

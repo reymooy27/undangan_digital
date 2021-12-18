@@ -19,3 +19,23 @@ body,
   bottom: none;
   top: 0;
 }
+.audio {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .audio {
+    right: calc(33.3% + 10px);
+  }
+}

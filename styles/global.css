@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
-
 @font-face {
   font-family: "RosemaryJasmine";
-  src: url("../public/fonts/RosemaryJasmine/RosemaryJasmine.ttf");
+  src: url("/fonts/RosemaryJasmine/RosemaryJasmine.ttf");
 }
 
 html,

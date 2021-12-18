@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="h-full w-full flex flex-col lg:flex-row overflow-auto">
       <Head>
-        <title>Undangan</title>
+        <title>Anis & Ansi - Undangan Pernikahan</title>
       </Head>
       <Main/>
       <Side/>

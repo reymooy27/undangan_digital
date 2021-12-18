@@ -25,7 +25,7 @@ function RangkaianAcara() {
                     viewport={{once: true}}>Jalan Kemunging Raya, di Masjid Al Barokah</motion.p>
         <motion.button whileInView={{opacity: 1, translateY: 0}} 
                     initial={{opacity: 0, translateY: 50}} 
-                    transition={{ease: 'easeInOut',duration: 1}} 
+                    transition={{ease: 'easeInOut',duration: 0.7}} 
                     viewport={{once: true}}
                     className="w-40 h-10 text-xs mx-auto flex items-center justify-center my-3 rounded-3xl p-4 bg-green text-white text-center uppercase hover:bg-greenDark transition-all ease-in-out duration-500"
                     >lihat lokasi</motion.button>
@@ -65,7 +65,7 @@ function RangkaianAcara() {
                     viewport={{once: true}}>Jalan Kemunging Raya, di Masjid Al Barokah</motion.p>
         <motion.button whileInView={{opacity: 1, translateY: 0}} 
                     initial={{opacity: 0, translateY: 50}} 
-                    transition={{ease: 'easeInOut',duration: 1}} 
+                    transition={{ease: 'easeInOut',duration: 0.7}} 
                     viewport={{once: true}}
                     className="w-40 h-10 text-xs mx-auto flex items-center justify-center my-3 rounded-3xl p-4 bg-green text-white text-center uppercase hover:bg-greenDark transition-all ease-in-out duration-500"
                     >lihat lokasi</motion.button>
